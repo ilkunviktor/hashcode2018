@@ -46,8 +46,6 @@ int main()
 	uint64_t scoreTotal = 0;
 	uint64_t millisecondsTotal = 0;
 
-	
-
 	for (const auto& taskPath : experimental::filesystem::v1::directory_iterator(inPath))
 	{
 		uint millisecondsFile = 0;
@@ -64,7 +62,6 @@ int main()
 
 		bool isFactorsIterate = true;
 
-
 		struct Factors
 		{
 			float f1 = 0.5f;
@@ -72,7 +69,6 @@ int main()
 		};
 
 		map<string, Factors> factorsGlobal;// = { {"dc", {0.49f, 0.51f}} };
-
 
 		float factorsStep = isFactorsIterate ? 0.01f : 1.f;
 
