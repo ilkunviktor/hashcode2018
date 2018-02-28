@@ -39,6 +39,11 @@ public:
 	}
 };
 
+// full copy
+//vector<ptr<A>> input;
+//vector<ptr<A>> output;
+//transform(input.begin(), input.end(), output(vvv2), CloneFunctor<A>());
+
 int main()
 {
 	string inPath = "../../in";
@@ -103,7 +108,7 @@ int main()
 			fileIn.close();
 
 			// solve
-			
+
 
 
 			// score
