@@ -109,6 +109,13 @@ int main()
 
 			// solve
 
+			//struct Comp 
+			//{
+			//	bool operator() (const AAA& lhs, const AAA& rhs) const 
+			//	{
+			//		return lhs < rhs;
+			//	}
+			//};
 
 
 			// score
