@@ -29,8 +29,7 @@ using namespace std;
 using uint = uint64_t;
 
 template<typename T>
-class CloneFunctor {
-public:
+struct CloneFunctor {
 	ptr<T> operator()(ptr<T> elem)
 	{
 		ptr<T> elemNew = make<T>();
